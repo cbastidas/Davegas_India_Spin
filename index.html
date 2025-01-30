@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davegas Casino Games</title>
+    <meta name="description" content="Online Games">
+    <link href="./css/style1.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/media.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Bebas+Neue&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <audio id="wheel" preload>
+        <source src="./audio/wheel.mp3" type="audio/mpeg">
+        <source src="./audio/wheel.ogg" type="audio/ogg; codecs=vorbis">
+        <source src="./audio/wheel.wav" type="audio/wav">
+    </audio>
+    <audio id="funfare" preload>
+        <source src="./audio/fanfare.mp3" type="audio/mpeg">
+        <source src="./audio/fanfare.ogg" type="audio/ogg; codecs=vorbis">
+        <source src="./audio/fanfare.wav" type="audio/wav">
+    </audio>
+
+    <!-- MAIN -->
+    <main class="main">
+        <section class="herobanner">
+            <a class="header__logo" href="/en" target="_blank">
+                <img src="./images_src/LOGO.png" alt="" title="">
+            </a>
+            <div class="prime__wrap">
+                <div class="promo-text  ">
+                    <div class="head-text">
+                         <!-- 
+                        <h2 style="text-align: center; font-size: 20; color: white;">Here goes the promotions/bonuses text/image</h2> 
+                        -->
+                       <img class="desktopOnly" src="./images/promo-text.png" alt="" title="">
+                        <img class="mobileOnly" src="./images/promo-text.png" alt="" title="">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="side_imgcontainer">
+                <div class="spinwheel-contain">
+                    <div id="spinwheel">
+                        <div class="game-loader">
+                            <div class="lds-dual-ring"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="cover footer__cover">
+            <div class="footer__sponsors"
+                style="margin-bottom: 0px !important;padding-top:30px !important;padding-bottom:0px !important;">
+                <div class="footer-sec-2 footer-sec">
+                    <!--
+                    <p style="text-align: center; font-size: 20; color: white;">Here goes the Payment options logos</p>
+                    -->
+                    <img src="./images/footer-logos.png" class="desktopOnly footer-logos" alt="" title="">
+                    <img src="./images/footer-logos-m.png" class="mobileOnly footer-logos" alt="" title="">
+                    
+                </div>
+            </div>
+            <div class="footer__sponsors" style="margin-top:0px !important;padding-top:0px !important;">
+                <div class="footer-text">
+                    <p style="font-weight: 200;">
+                        Davegas is operated by Throne Entertainment B.V., registered in the Commercial Register of
+                        Curaçao under number 150615 and address Mahaaiweg 7, Willemstad, Curaçao. Throne Entertainment
+                        B.V. is duly licensed through a sublicense granted by C.I.L. Curaçao Interactive Licensing N.V.,
+                        pursuant to Master Gaming License #5536/JAZ issued by the Governor of Curaçao. TPM Services
+                        Limited, registered in Cyprus under registration number 421716 and located at Athinon, 5, Agios
+                        Antonios, 1015, Nicosia, Cyprus is engaged with payment processing.
+                    </p>
+                    <p style="text-align: center;font-weight: 200;">® Trade-mark of Interac Corp. used under license</p>
+                    <p style="text-align: center;font-weight: 200;">
+                        <a href="/en/terms" class="c-footer-link">
+                            Terms &amp; Conditions
+                        </a> |
+                        <a href="/en/privacy-policy" class="c-footer-link">
+                            Privacy Policy
+                        </a> |
+                        <a href="https://cert.gcb.cw/certificate?id=ZXlKcGRpSTZJbHBJWW5oTVVFOXdkMDFLWVhFeFIwaEtkWGRTWVhjOVBTSXNJblpoYkhWbElqb2lZWEpxYld0VVdGTjFNRFJJVEhnMU9FMUhVR1I1ZHowOUlpd2liV0ZqSWpvaU9XSTNZekF3WTJVNU5HVTVOemhoTldKbFkySmtPVFkyTUdVM00ySTNPVGhrTlRBMk1EQXlaalpsTjJNMk1EVm1aR1l4TXpCbVpUTTFZalU0WXpRd01pSXNJblJoWnlJNklpSjk="
+                            class="c-footer-link">
+                            License Details
+                        </a> |
+                        <a href="/en/gamerules" class="c-footer-link">
+                            Game Rules
+                        </a>
+                    </p>
+                    <p style="text-align: center;font-weight:bold;">© DAVEGAS 2025</p>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+
+
+    <div id="spinwheel-messages" class>
+        
+        <!--Here we can delete the first option so we skip to the last one-->
+        <!--
+        <div class="message frame model-bg1">
+            <div class="frame-symbol transform-top"></div>
+            <div class="frame-circles transform-bottom"></div>
+
+            <div class="message-inner">
+                <div class="message-content">
+
+                    <div class="modal_space">
+                        <div class="m_point mpoint1">
+
+                        </div>
+                    </div>
+                     <a href="javascript:;" class="btn-message btn-hide-message btn-spin spin-button">
+                        <img src="./images/spin-btn.png">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        -->
+      
+        
+    
+        <div class="message frame  model-bg2">
+            <div class="frame-symbol transform-top"></div>
+            <div class="frame-circles transform-bottom"></div>
+            <div class="message-inner">
+                <div class="message-content">
+                    <div class="modal_space">
+                        <div class="m_point mpoint1">
+
+                        </div>
+                    </div>
+
+                    <a href="/en/registration"
+                        class="btn-message btn-hide-message btn-spin spin-button claim_now_btn">
+                        <!-- Here Goes the Claim now button Image-->
+                        <img src="./images/claim-now.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/webfontloader.js"></script>
+    <script src="./js/spin_script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function (event) {
+            //setup options for spinwheel
+            var options = {
+                el: '#spinwheel',
+                canvas_size: 700,
+                fonts: ['Rubik'],
+                messageContainer: '#spinwheel-messages',
+                showMessages: true,
+                graphicPath: './images/',
+                graphics: {
+                    bg: { file: 'wheel-border.png'},
+                    segments: [
+                        //This is the line to change the Ring Image
+                        { file: 'wheel.png' },
+                        //{ file: 'ring-2.png' },
+                        // { file: 'ring-3.png' }
+                    ],
+                    arrow: { file: 'pointer.png' },
+                    spinBtn: { file: 'cta-btn.png' },
+                    //gif' },
+                    //lightOn: { file: 'spacer.gif' },
+                    preload: [
+
+                    ]
+                },
+                components: {
+                    bg: {
+                        rotate: 0, //0 - 360
+                        scale: 0.88, // 0 - 1
+                        rotateBy: 0
+                    },
+
+                    spinBtn: {
+                        rotate: 0, //0 - 360
+                        scale: 0.18, // 0 - 1
+                        clickableScale: 0.2, // 0 - 1
+                        text: "",
+                        font: 'Roboto',
+                        fontSize: 25,
+                        fontWeight: 800,
+                        fontColor: '#000',
+                        fontShadowColor: 'black',
+                        fontShadowBlur: 0,
+                        fontStrokeColor: '#000',
+                        fontStrokeWeight: 0,
+                        fontOffsetX: 0,
+                        fontOffsetY: -5,
+
+                    },
+                    arrow: {
+                        rotate: 0, //0 - 360
+                        scale: 0.096, //0 - 1
+                        x: 0, //0 - 1
+                        y: 0.63 //0 - 1
+                    },
+                    segments: [
+                        {
+                            rotate: 0, //start angle (0 - 360)
+                            rotateBy: 10, //spin speed (>0)
+                            scale: 0.77, //0 - 1
+                            textRadius: 0.85, //0 - 1
+                            font: 'Arial',
+                            fontSize: 34,
+                            fontWeight: 400,
+                            fontColor: 'white',
+                            fontShadowColor: '',
+                            fontShadowBlur: 0,
+                            fontStrokeColor: 'rgba(0,0,0,0.2)',
+                            fontStrokeWeight: 6,
+                            textPosition: 'short', // long | short
+                            lineGap: 0
+                        },
+                        //Here goes the second Spin if needed
+                        //{
+                        //    rotate: 2 * 22.5, //start angle (0 - 360)
+                        //    rotateBy: 10, //spin speed (>0)
+                        //    scale: 0.435, //0 - 1
+                        //    textRadius: 0.80, //0 - 1
+                        //    font: 'Arial',
+                        //    fontSize: 30,
+                        //    fontWeight: 400,
+                        //    fontColor: 'white',
+                        //    fontShadowColor: '',
+                        //    fontShadowBlur: 0,
+                        //    fontStrokeColor: 'rgba(0,0,0,0.2)',
+                        //    fontStrokeWeight: 6,
+                        //    textPosition: 'short', // long | short
+                        //    lineGap: 0
+                        //}
+                    ],
+                    light: {
+                        count: 0
+                    }
+                },
+                segmentLabels: [
+                    [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                    [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                    [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+                ],
+                spinTime: 3000,
+                stages: ["0,2"],
+                winAngle: 0 * 50, //0 - 360
+                drawArrow: true,
+                shroudColour: 'rgba(0,0,0,0.25)',
+                rotateSegmentsOnIdle: true,
+                hideSpinTextOnSpin: false,
+                init: function () {
+                    console.log(this)
+                },
+                onSpin: function (index) { },
+
+            };
+
+
+            //create spinwheel
+            var wheel = new Spinwheel(options);
+            //hide message on click outside area
+            var msgCont = document.getElementById('spinwheel-messages');
+            msgCont.addEventListener('click', function (e) {
+                if (e.target == msgCont && wheel.o.state != "stopped") {
+                    wheel.hideMessage();
+                }
+            });
+
+            //set correct screen height on mobile
+            var appHeight = function appHeight() {
+                var doc = document.documentElement;
+                doc.style.setProperty('--app-height', "".concat(window.innerHeight, "px"));
+            };
+            window.addEventListener('resize', appHeight);
+            appHeight();
+
+
+        });
+
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            const queryString = window.location.search;
+            console.log("qstr:", queryString);
+            var baseurl = $(".claim_now_btn").attr('href');
+            console.log("baseurl", baseurl);
+            var newurl = "";
+            if (baseurl.indexOf("?") < 0) {
+                if (queryString.indexOf("?") < 0) {
+                    newurl = baseurl;
+                } else {
+                    newurl = baseurl + queryString;
+                }
+            } else {
+                if (queryString.indexOf("?") < 0) {
+                    newurl = baseurl;
+                } else {
+                    var qstr = queryString.split("?");
+                    newurl = baseurl + "&" + qstr[1];
+                }
+            }
+            $(".claim_now_btn").attr("href", newurl);
+        });
+
+        var offerTimer = 60;
+
+        function startTimer() {
+            setInterval(function () {
+                offerTimer--;
+                if (offerTimer > 0) {
+                    $("#timerclock").html("EXPIRES  00:" + offerTimer);
+                } else {
+                    $("#timerclock").html("Offer Expired");
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>
